@@ -9,15 +9,7 @@
 
 ## Instructions
 
-Create your directory structure as follows:
-
-- js/
-  - app/
-    - controllers/
-      - ContactController.js
-      - StaffController.js
-  - angular.js
-- index.html
+Copy the directory structure from this repo.
 
 Create the controller `ContactController` inside `js/app/controllers/ContactController.js`. Create the values `name`, `email` and `phone` inside the controller. Create a function to update the name to a different value - e.g.
 
