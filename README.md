@@ -29,4 +29,4 @@ Initialise this controller in our HTML using `ng-controller`. Make sure you use 
 
 Create another controller named `StaffController` inside `js/app/controllers/ContactController.js`.  Create the values `name`, `email` and `phone` inside the controller. 
 
-Initialise `StaffController` inside the HTML element for our ContactController. Inside this, display the staff's name, email and phone number. Then, create a button with the attribute `ng-click="contact.changeName"`. This should, when clicked, update our `ContactController`'s `name` value.  
+Initialise `StaffController` inside the HTML element for our ContactController. Inside this, display the staff's name, email and phone number. Then, create a button with the attribute `ng-click="contact.changeName()"`. This should, when clicked, update our `ContactController`'s `name` value.
