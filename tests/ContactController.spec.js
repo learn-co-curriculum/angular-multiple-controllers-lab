@@ -19,7 +19,7 @@ describe('ContactController', function () {
 	});
 
 	describe('changeName function', function () {
-		it('should exist', function () {
+		it('should have a function to change the name property', function () {
 			var $scope = {};
 
 			$controller('ContactController as vm', { $scope: $scope });
